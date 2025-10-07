@@ -66,6 +66,7 @@ typedef struct {
 typedef struct {
     void* dex_address; // Memory address where DEX file starts
     size_t dex_size;   // Size of the DEX file in bytes
+    char version[4];  //version off detector.c
 } DexDetectionResult;
 
 #endif
